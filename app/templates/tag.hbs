@@ -7,7 +7,7 @@
                 {{#if model.content}}
                     {{markdown-to-html model.content tagName=""}}
                 {{else}}
-                    A collection of {{plural model.posts.length empty='posts' singular='% post' plural='% posts'}}
+                    Összesen {{plural model.posts.length empty='posts' singular='% poszt' plural='% poszt'}}.
                 {{/if}}
             </h2>
         </div>
