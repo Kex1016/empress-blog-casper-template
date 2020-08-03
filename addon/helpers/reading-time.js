@@ -11,8 +11,8 @@ export function readingTime([post], hash) {
       readingTime,
       images,
       words,
-      minute = _.isString(hash.minute) ? hash.minute : '1 min read',
-      minutes = _.isString(hash.minutes) ? hash.minutes : '% min read';
+      minute = _.isString(hash.minute) ? hash.minute : '1 perces olvasmány',
+      minutes = _.isString(hash.minutes) ? hash.minutes : '% perces olvasmány';
 
   html = post.html;
   images = post.image ? 1 : 0;

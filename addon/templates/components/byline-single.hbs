@@ -9,10 +9,10 @@
         {{#if @author.content}}
             <p>{{@author.content}}</p>
         {{else}}
-            <p>Read {{#link-to 'author' @author.id}}more posts{{/link-to}} by this author.</p>
+            <p>{{#link-to 'author' @author.id}}Még több poszt{{/link-to}} a szerkesztő által</p>
         {{/if}}
     </section>
 </section>
 <div class="post-full-footer-right">
-    {{#link-to 'author' @author.id class="author-card-button"}}Read More{{/link-to}}
+    {{#link-to 'author' @author.id class="author-card-button"}}Több{{/link-to}}
 </div>
